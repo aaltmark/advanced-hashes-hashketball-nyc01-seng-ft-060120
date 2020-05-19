@@ -195,6 +195,7 @@ def big_shoe_rebounds
     max_shoe = team_info[:players].max_by {|player_hash|player_hash[:shoe_size]}
       #player_hash.max_by {players| player_hash[:shoe_size]}
     end
+    max_shoe
     binding.pry
 end
 
