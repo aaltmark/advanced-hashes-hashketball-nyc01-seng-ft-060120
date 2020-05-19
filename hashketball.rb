@@ -184,7 +184,6 @@ def player_stats(player_name)
     team_info[:players].each do |player_hash|
     if player_hash[:player_name] == player_name
       return player_hash
-    end
   end
   end
 end
