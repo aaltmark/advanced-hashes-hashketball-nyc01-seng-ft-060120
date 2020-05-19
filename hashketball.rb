@@ -191,7 +191,7 @@ end
 end
 
 def big_shoe_rebounds
-  max_shoe
+  max_shoe = {}
   game_hash.each do |team, team_info|
     max_shoe = team_info[:players].max_by {|player_hash|player_hash[:shoe_size]}
       #player_hash.max_by {players| player_hash[:shoe_size]}
