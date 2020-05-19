@@ -162,3 +162,11 @@ def team_names
     team_info[:team_name]
   end
 end
+
+def player_numbers (team_name)
+  game_hash.each do |team, team_info|
+    team_info.map do |team_info, details|
+      details[:number]
+    end
+  end
+end
