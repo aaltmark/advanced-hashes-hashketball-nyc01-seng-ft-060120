@@ -198,7 +198,7 @@ def big_shoe_rebounds
     end
 end
 
-end
+
 #game_hash.each do |team, team_info|
   #team_info[:players].each do |player_hash|
     #player_hash.max[:shoe_size]
